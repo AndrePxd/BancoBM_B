@@ -4,6 +4,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ClientController {
-  @GetMapping("/health")
+  @GetMapping("/client")
   public String health() { return "OK"; }
 }
