@@ -4,6 +4,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class BotController {
-  @GetMapping("/bot")
+  @GetMapping("/bot/help")
   public String health() { return "OK"; }
 }
