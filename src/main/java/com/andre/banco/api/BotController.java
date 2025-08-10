@@ -10,5 +10,8 @@ public class BotController {
 
     @GetMapping("/bot/help")
   public String change() { return "OK"; }
+
+      @GetMapping("/bot/help")
+  public String change1() { return "OK"; }
 }
 
